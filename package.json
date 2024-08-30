@@ -1,0 +1,25 @@
+{
+  "name": "gitactionslearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node production.js",
+    "test": "node test.js",
+    "integration": "node integration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virendra-koloapp/gitactionslearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virendra-koloapp/gitactionslearning/issues"
+  },
+  "homepage": "https://github.com/virendra-koloapp/gitactionslearning#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
