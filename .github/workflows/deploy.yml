@@ -44,6 +44,7 @@ jobs:
         run: npm run integration
 
   Production:
+    needs: Integration
     runs-on: ubuntu-latest
     environment: production
     steps:
